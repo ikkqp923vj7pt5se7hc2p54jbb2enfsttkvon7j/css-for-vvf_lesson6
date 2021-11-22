@@ -1,36 +1,29 @@
-body {
-    margin: 0 0;
-    }
-  
-.squares {
-    width: 100vh;
-    height: 100vh;
-    margin: 0 auto;
-    }
-  
-.squares div {
-    display: inline-block;
-    text-align: center;
-    vertical-align: 300px;
-    font-size: 1.5em;
-    float:left;
-    }
-  
-.squares div p {
-    margin: 0 0;
-    display: table-cell;
-    vertical-align: middle;
-    width: 20vh;
-    height: 20vh;
-    }
-
-.blue {
-    background: #6b8fd4;
-    color: #ffcf73;
-    }    
-
-.yellow {
-    background: #ffcf73;
-    color: #6b8fd4;
-    }
-  
+body
+{
+  width: 100vh;
+  height: 100vh;
+  margin: 0 auto;
+}
+ul
+{
+  text-align: center;
+  font-size: 0;
+  padding: 0;
+}
+li
+{ height: 20vh;
+  width: 20vh;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 20vh;
+}
+.yellow
+{
+  background-color: rgb(255, 207, 115);
+  color: rgb(107, 143, 212);
+}
+.blue
+{
+  background-color: rgb(107, 143, 212);
+  color: rgb(255, 207, 115);
+}
